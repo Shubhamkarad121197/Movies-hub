@@ -1,0 +1,27 @@
+<div class="login-container">
+    <img class="film" src="assets/Images/film.png" alt="">
+    <div class="logo">Movies Hub</div>
+    <div class="desc">A story like Hindi medium could be a modern update of a factual film like KKG. There the land
+        Mafias played sharks who acquired the land illegally. Here the parent’s background stands the victims of
+        children’s education where schools take advantage of their circumstance.
+        <div class="mt-2" style="font-weight: bolder;">
+            -Shubham karad
+        </div>
+      
+    </div>
+   
+    <form class="formGroup">
+        <div class="mb-3">
+            <label for="Username" class="form-label">Username</label>
+            <input type="text" placeholder="Enter your Username" class="form-control"  name="Username" [(ngModel)]="Username" autocomplete="off">
+           
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" placeholder="Enter your password" class="form-control" name="Password" [(ngModel)]="Password" autocomplete="off">
+           
+        </div>
+        <div class="error">{{errorMsg}}</div>
+        <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+    </form>
+</div>

@@ -1,0 +1,65 @@
+.home-container{
+    display: flex;
+   
+}
+.All-movies{
+    width: 75%;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid #fdc827;
+    padding: 40px 20px;
+    font-family: "Roboto", sans-serif;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+   
+}
+.top>h4{
+    text-transform:uppercase;
+    font-weight: bold;
+    border-left:5px solid #ff9900 ;
+    padding-left: 10px;
+  
+}
+.view-all{
+    color: #ff9900;
+    cursor: pointer;
+}
+
+.movie-thumbnail{
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.movie{
+    margin-right: 1%;
+}
+.cover>img{
+    border-radius: 5px;
+}
+.detail{
+    width: 100%;
+}
+.name{
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.theatre-movies{
+    margin-top: 5%;
+}
+
+.popular-movies{
+    width: 25%;
+    min-height: calc(100vh - 80px);
+    padding: 40px 20px;
+    font-family: "Roboto", sans-serif;
+}
+.rating{
+    text-align: center;
+}

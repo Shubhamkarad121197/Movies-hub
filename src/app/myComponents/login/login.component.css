@@ -1,0 +1,52 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( 135deg,#ffe645 59%, #e2aa02 100%);
+}
+.logo{
+    font-size: 70px;
+  
+    font-weight: bold;
+    font-family: 'Creepster',cursive;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.desc{
+    font-size: 26px;
+    line-height: 30px;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    top:200px;
+    right: 50px;
+    text-align: right;
+    width: 60%;
+}
+.film{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 30%;
+    height: fill;
+   
+}
+label{
+    font-weight: bold;
+    font-family: monospace;
+}
+.formGroup{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(248, 245, 178);
+    border-radius: 10px;
+    position: absolute;
+    bottom:50px;
+    right:50px;
+    box-shadow: 5px 5px 20px #383838;
+}
+.error{
+    color: red;
+    text-align: right;
+}
